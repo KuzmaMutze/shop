@@ -1,0 +1,13 @@
+.wrapper {
+	cursor: pointer;
+}
+
+.filled svg {
+	fill: var(--primary);
+}
+
+.star svg {
+	margin-right: 5px;
+
+	cursor: pointer;
+}
