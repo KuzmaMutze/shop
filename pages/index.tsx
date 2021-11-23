@@ -5,6 +5,7 @@ import { HTag } from '../components/HTag/HTag';
 import { P } from '../components/P/P';
 import { Rating } from '../components/Rating/Rating';
 import { Tag } from '../components/Tag/Tag';
+import { withLayout } from '../layout/Layout';
 
 const Home: NextPage = () => {
   const [rating, setRating] = useState(4);
@@ -41,4 +42,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default withLayout(Home);
